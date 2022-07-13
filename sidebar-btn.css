@@ -1,0 +1,273 @@
+
+
+    /* stick css */
+
+    .sticklist {
+        position: fixed;
+        z-index: 99999;
+        top: 50%;
+        display: flex;
+        align-items: baseline;
+        transition: all 1s ease 0s;
+        max-width: 170px;
+        min-width: 170px;
+        flex-direction: column;
+        margin-top: -101px;
+    }
+    .sticklist ul{
+        padding: 0px;
+    }
+
+    .open-close-arrow {
+        border-radius: 0px;
+        padding: 10px;
+        text-align: center;
+        line-height: 32px;
+        box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+        background: #f87504;
+        color: #fff;
+        font-size: 20px;
+        -webkit-transition: all .3s ease 0s;
+        display: inline-block;
+        vertical-align: bottom;
+        border: 0px;
+        width: auto;
+        min-width: 50px;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+   
+
+    li.whataspp-icon,
+    .inquiery-icon {
+        overflow: hidden;
+    }
+
+    li.whataspp-icon.none-li.open {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    .sticklist ul.open {
+        width: 100%;
+        left: 0;
+    }
+
+    li.whataspp-icon {
+        background: #2db640;
+        border: 0px solid #2db640;
+        color: #fff;
+    }
+
+    .none-li a i {
+        font-size: 26px;
+        padding: 0px;
+        color: #fff;
+    }
+    .sticklist ul.open li {
+        max-width: 170px;
+        width: 100%;
+        font-size: 16px;
+        pointer-events: unset;
+    }
+
+    li.none-li a i {
+        padding-right: 0px;
+    }
+
+    button.open-close-arrow.open span.open-arrow {
+        display: none;
+    }
+
+    button.open-close-arrow span.open-arrow {
+        display: block;
+    }
+
+    .open-close-arrow span.close-arrow {
+        display: none;
+        transition: 0.2s all;
+    }
+
+    .open-close-arrow.open span.close-arrow {
+        display: block !important;
+    }
+
+    button.open-close-arrow.open span.open-arrow {
+        display: none;
+    }
+
+    button.open-close-arrow span.open-arrow {
+        display: block;
+    }
+
+    .open-close-arrow span.close-arrow {
+        display: none;
+        transition: 0.2s all;
+    }
+
+    .open-close-arrow.open span.close-arrow {
+        display: block !important;
+    }
+
+    .btn-text {
+        opacity: 0;
+        white-space: nowrap;
+        display: none;
+    }
+
+    .none-li .icon {
+        transition: 0.8s all;
+    }
+
+    .inquiery-icon {
+        background: #000 !important;
+        color: #fff !important;
+    }
+
+    .sticklist ul.open li.whataspp-icon.none-li span.btn-text,
+    .sticklist ul.open li.inquiery-icon.none-li span.btn-text {
+        opacity: 1;
+        display: block;
+    }
+
+    .sticklist ul.open li {
+        background: #fff;
+    }
+
+    .sticklist ul.open li.whataspp-icon {
+        color: #fff;
+        background: #2db640;
+        border-color: #2db640;
+    }
+
+
+
+    .sticklist .whataspp-icon:hover {
+        max-width: 170px;
+        width: 100%;
+        font-size: 16px;
+        pointer-events: unset;
+    }
+
+    .sticklist .whataspp-icon:hover .btn-text {
+        opacity: 1;
+        color: #fff !important;
+        display: block;
+    }
+
+
+    .sticklist .inquiery-icon:hover {
+        max-width: 170px;
+        width: 100%;
+        font-size: 16px;
+        color: #fff !important;
+        text-decoration: none;
+    }
+
+    .sticklist .inquiery-icon:hover .btn-text {
+        opacity: 1;
+        color: #fff;
+        display: block;
+    }
+
+   
+    .sticklist ul.open li.whataspp-icon span.btn-text {
+        color: #fff;
+    }
+
+    .sticklist ul.open li.inquiery-icon span.btn-text {
+        color: #fff;
+    }
+
+    .download-pdf {
+        background: #f87504 !important;
+        color: #fff !important;
+        border: 0px solid transparent !important;
+    }
+
+
+
+    span.btn-text {
+        transition: 0.8s all;
+    }
+
+
+
+    li.download-pdf.none-li.inquiery-icon.click1.imgnone:hover span.icon,
+    .sticklist ul.open li.download-pdf.none-li.inquiery-icon.click1.imgnone span.icon {
+        transform: translateX(-17px);
+    }
+    .imgnone a {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-decoration: unset !important;
+    }
+    
+    .imgnone .btn-text {
+        padding-right: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .imgnone {
+        display: flex;
+        align-items: center;
+        transition: 0.6s all !important;
+        width: 50px;
+        margin: 5px 0px;
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    
+    ul#sideService.open li h6 {
+        display: block;
+    }
+    
+    ul#sideService.open li {
+        background: #00457e;
+    }
+    
+    
+    
+        .sticklist span.icon, .sticklist span.icon1 {
+            min-width: 50px;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+/* -----------------------  2 side button ------------------------------------- */
+
+/* mobile side btn */
+@media screen and (max-width: 767px) {
+.footer-box {
+    display: flex !important;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0f4da2;
+    color: white;
+    text-align: center;
+    z-index: 999999;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.book-app {
+    width: 100%;
+    padding: 2%;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    max-height: 100px;
+}
+
+.sticklist
+{
+    display: none !important;
+}
+
+}
