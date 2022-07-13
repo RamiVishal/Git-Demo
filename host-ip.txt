@@ -1,6 +1,0 @@
-SMTP Server: mail.smtp2go.com
-SMTP Port: 2525
-Alternative ports: 8025, 587, 80 or 25. TLS is available on the same ports.
-SSL is available on ports 465, 8465 and 443.
-Username: dcbindia
-Password: India!@#567
